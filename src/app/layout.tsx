@@ -4,6 +4,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
+import { BRANDING } from "@/config/branding";
 
 // Polyfill para localStorage no lado do servidor
 const localStorageMock = {
@@ -41,22 +42,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Casa dos Painéis - Plataforma de Cursos",
-  description: "Transforme sua carreira com cursos práticos sobre automação, gestão visual e desenvolvimento de painéis profissionais.",
-  keywords: ["Casa dos Painéis", "LMS", "Cursos", "Automação", "Gestão Visual", "Next.js", "TypeScript"],
+  title: BRANDING.seo.title,
+  description: BRANDING.seo.description,
+  keywords: BRANDING.seo.keywords,
   authors: [{ name: "Casa dos Painéis Team" }],
   icons: {
-    icon: "/logo.svg",
+    icon: BRANDING.logo.favicon,
   },
   openGraph: {
-    title: "Casa dos Painéis - Plataforma de Cursos",
-    description: "Transforme sua carreira com cursos práticos sobre automação, gestão visual e desenvolvimento de painéis profissionais.",
+    title: BRANDING.seo.title,
+    description: BRANDING.seo.description,
+    images: [BRANDING.seo.ogImage],
     type: "website",
+    locale: "pt_BR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Casa dos Painéis",
-    description: "Plataforma de cursos sobre automação e gestão visual",
+    title: BRANDING.seo.title,
+    description: BRANDING.seo.description,
+    images: [BRANDING.seo.ogImage],
   },
 };
 

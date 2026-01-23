@@ -1,0 +1,18 @@
+# Vercel Ignore File
+.env.local
+.env*.local
+.context/
+*.md
+!README.md
+.git/
+node_modules/
+.next/
+.DS_Store
+*.log
+dev.pid
+*.pid
+*.log
+test/
+__tests__/
+.vscode/
+.idea/

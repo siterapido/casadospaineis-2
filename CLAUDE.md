@@ -156,6 +156,32 @@ bun run db:generate
 
 ---
 
+## 🏷️ White Label (Desabilitado)
+
+O modo white label foi **desativado em 2026-01-23** para focar na plataforma dedicada Casa dos Painéis.
+
+### Status Atual
+- **Modelo Prisma:** `tenant_settings` preservado no schema (comentado)
+- **Implementação:** 0% - apenas estrutura de banco de dados
+- **Branding Atual:** Configuração estática em `src/config/branding.ts`
+- **Reversibilidade:** ⭐⭐⭐⭐☆ (Fácil - 8-12h)
+
+### Identidade Casa dos Painéis
+| Elemento | Valor |
+|----------|-------|
+| **Nome** | Casa dos Painéis |
+| **Tagline** | Transforme sua carreira com energia solar |
+| **Cor Primária** | #F59E0B (Amarelo Solar) |
+| **Cor Secundária** | #1E40AF (Azul Céu) |
+| **Cor Accent** | #10B981 (Verde Sustentável) |
+
+### Documentação
+- **Reativação:** Ver `.context/archived/white-label-reativacao.md`
+- **Plano Completo:** Ver `.context/plans/desativar-white-label.md`
+- **Backup Schema:** Ver `.context/archived/schema-with-white-label.prisma`
+
+---
+
 ## 🤖 Agentes IA Disponíveis
 
 O projeto inclui playbooks em `.context/agents/` para guiar IAs em tarefas específicas:

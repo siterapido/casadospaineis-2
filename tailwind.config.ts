@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import tailwindcssAnimate from "tailwindcss-animate";
+import { BRANDING } from "./src/config/branding";
 
 const config: Config = {
     darkMode: "class",
@@ -50,6 +51,15 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			},
+  			brand: {
+  				primary: BRANDING.colors.primary,
+  				'primary-dark': BRANDING.colors.primaryDark,
+  				secondary: BRANDING.colors.secondary,
+  				'secondary-light': BRANDING.colors.secondaryLight,
+  				accent: BRANDING.colors.accent,
+  				sidebar: BRANDING.colors.sidebar,
+  				'sidebar-text': BRANDING.colors.sidebarText,
   			}
   		},
   		borderRadius: {

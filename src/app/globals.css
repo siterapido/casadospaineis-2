@@ -76,6 +76,15 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* Casa dos Painéis - Brand Colors */
+  --brand-primary: 39 99% 48%;        /* #F59E0B - Amarelo Solar */
+  --brand-primary-dark: 35 92% 44%;   /* #D97706 */
+  --brand-secondary: 222 61% 41%;     /* #1E40AF - Azul Céu */
+  --brand-secondary-light: 217 91% 60%; /* #3B82F6 */
+  --brand-accent: 160 84% 39%;        /* #10B981 - Verde */
+  --brand-sidebar: 215 28% 17%;       /* #1E293B */
+  --brand-sidebar-text: 210 40% 98%;  /* #F8FAFC */
 }
 
 .dark {

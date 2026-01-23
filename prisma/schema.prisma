@@ -179,6 +179,12 @@ model sessions {
   @@index([user_id], map: "idx_sessions_user_id")
 }
 
+// =====================================================
+// WHITE LABEL - DESABILITADO (2026-01-23)
+// Modelo preservado para reativação futura
+// Ver: .context/archived/white-label-reativacao.md
+// =====================================================
+/*
 model tenant_settings {
   id                  Int       @id @default(autoincrement())
   name                String    @default("Minha Plataforma") @db.VarChar(255)
@@ -201,6 +207,7 @@ model tenant_settings {
   @@index([domain], map: "idx_tenant_domain")
   @@index([slug], map: "idx_tenant_slug")
 }
+*/
 
 model user_progress {
   id                 Int       @id @default(autoincrement())
