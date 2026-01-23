@@ -1,0 +1,169 @@
+   ▲ Next.js 15.3.5
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.0.2:3001
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1792ms
+ ✓ Compiled /middleware in 355ms (216 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 8.6s (1363 modules)
+ ✓ Compiled in 806ms (808 modules)
+ ✓ Compiled in 179ms (555 modules)
+ ⨯ [TypeError: localStorage.getItem is not a function] {
+  digest: '2356666925'
+}
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function] { page: '/' }
+(node:21143) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1943ms (1682 modules)
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function] { page: '/' }
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ HEAD / 500 in 14919ms
+ HEAD / 500 in 262ms
+ ✓ Compiled in 3.4s (1912 modules)
+ ✓ Compiled in 1090ms (800 modules)
+ ✓ Compiled in 567ms (800 modules)
+ ✓ Compiled in 885ms (1016 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (187kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled in 1818ms (1056 modules)
+ ✓ Compiled in 2.2s (800 modules)
+ ✓ Compiled in 1880ms (800 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development.pack.gz: Error: unexpected end of file
+ ✓ Compiled in 23.2s (1016 modules)
+ ✓ Compiled in 10.5s (1016 modules)
+ ✓ Compiled in 3s (800 modules)
+ ✓ Compiled in 1178ms (1016 modules)
+ ✓ Compiled in 922ms (800 modules)
+ ✓ Compiled in 775ms (800 modules)
+ ✓ Compiled in 540ms (800 modules)
+ ✓ Compiled in 388ms (800 modules)
+ ✓ Compiled in 615ms (800 modules)
+ ✓ Compiled in 969ms (800 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/0.pack.gz_' -> '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 10.7s (1070 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/middleware.js']
+ ✓ Compiled /_error in 359ms (883 modules)
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:151:28)
+    at <unknown> (.next/server/webpack-runtime.js:78:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:77:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:115:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1036ms (1541 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/middleware.js']
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/app/_not-found/page.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ✓ Compiled in 1149ms (804 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/0.pack.gz_' -> '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/0.pack.gz'
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/middleware.js']
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/app/_not-found/page.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/css/app/layout.css?v=1769174581095 404 in 44ms
+ GET /_next/static/chunks/main-app.js?v=1769174581095 404 in 89ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 87ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/middleware.js']
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/app/_not-found/page.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/css/app/layout.css?v=1769175665511 404 in 88ms
+ GET /_next/static/chunks/main-app.js?v=1769175665511 404 in 139ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 133ms

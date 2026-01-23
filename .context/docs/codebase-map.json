@@ -1,0 +1,1608 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-16T23:46:13.956Z",
+  "stack": {
+    "primaryLanguage": "typescript",
+    "languages": [
+      "javascript",
+      "typescript",
+      "python"
+    ],
+    "frameworks": [
+      "nextjs"
+    ],
+    "buildTools": [],
+    "testFrameworks": [],
+    "packageManager": null,
+    "isMonorepo": false,
+    "hasDocker": false,
+    "hasCI": false
+  },
+  "structure": {
+    "totalFiles": 274,
+    "topDirectories": [
+      {
+        "name": "bun.lock",
+        "fileCount": 1
+      },
+      {
+        "name": "Caddyfile",
+        "fileCount": 1
+      },
+      {
+        "name": "components.json",
+        "fileCount": 1
+      },
+      {
+        "name": "db",
+        "fileCount": 1
+      },
+      {
+        "name": "download",
+        "fileCount": 1
+      },
+      {
+        "name": "eslint.config.mjs",
+        "fileCount": 1
+      },
+      {
+        "name": "examples",
+        "fileCount": 2
+      },
+      {
+        "name": "IMPLEMENTATION_SUMMARY.md",
+        "fileCount": 1
+      },
+      {
+        "name": "LMS_README.md",
+        "fileCount": 1
+      },
+      {
+        "name": "mini-services",
+        "fileCount": 0
+      },
+      {
+        "name": "next.config.ts",
+        "fileCount": 1
+      },
+      {
+        "name": "package.json",
+        "fileCount": 1
+      },
+      {
+        "name": "postcss.config.mjs",
+        "fileCount": 1
+      },
+      {
+        "name": "prisma",
+        "fileCount": 1
+      },
+      {
+        "name": "public",
+        "fileCount": 2
+      },
+      {
+        "name": "README_LMS.md",
+        "fileCount": 1
+      },
+      {
+        "name": "README.md",
+        "fileCount": 1
+      },
+      {
+        "name": "skills",
+        "fileCount": 167
+      },
+      {
+        "name": "src",
+        "fileCount": 87
+      },
+      {
+        "name": "tailwind.config.ts",
+        "fileCount": 1
+      },
+      {
+        "name": "tsconfig.json",
+        "fileCount": 1
+      }
+    ],
+    "languageDistribution": [
+      {
+        "extension": ".xsd",
+        "count": 78
+      },
+      {
+        "extension": ".tsx",
+        "count": 73
+      },
+      {
+        "extension": ".py",
+        "count": 32
+      },
+      {
+        "extension": ".ts",
+        "count": 29
+      },
+      {
+        "extension": ".md",
+        "count": 26
+      },
+      {
+        "extension": ".txt",
+        "count": 13
+      },
+      {
+        "extension": ".xml",
+        "count": 5
+      },
+      {
+        "extension": ".json",
+        "count": 4
+      },
+      {
+        "extension": ".css",
+        "count": 4
+      },
+      {
+        "extension": ".mjs",
+        "count": 2
+      }
+    ]
+  },
+  "architecture": {
+    "layers": [
+      {
+        "name": "Utils",
+        "description": "Shared utilities and helpers",
+        "directories": [
+          "src/lib",
+          "skills/frontend-design/examples/typescript",
+          "skills/docx/scripts"
+        ],
+        "symbolCount": 25,
+        "dependsOn": []
+      },
+      {
+        "name": "Controllers",
+        "description": "Request handling and routing",
+        "directories": [
+          "src/app/api",
+          "src/app/api/progress",
+          "src/app/api/courses",
+          "src/app/api/purchases",
+          "src/app/api/seed",
+          "src/app/api/categories",
+          "src/app/api/courses/[courseId]",
+          "src/app/api/admin/students",
+          "src/app/api/admin/courses",
+          "src/app/api/admin/sales",
+          "src/app/api/admin/courses/[courseId]"
+        ],
+        "symbolCount": 18,
+        "dependsOn": []
+      },
+      {
+        "name": "Components",
+        "description": "UI components and views",
+        "directories": [
+          "src/app",
+          "src/app/setup",
+          "src/app/register",
+          "src/app/login",
+          "src/app/faq",
+          "src/app/dashboard",
+          "src/app/courses",
+          "src/app/admin",
+          "src/app/about",
+          "src/components/ui",
+          "src/components/student",
+          "src/components/setup",
+          "src/components/course",
+          "src/components/admin",
+          "src/components/layout",
+          "src/app/learn/[courseId]",
+          "src/app/courses/[id]",
+          "src/app/admin/students",
+          "src/app/admin/sales",
+          "src/app/admin/courses",
+          "skills/frontend-design/examples/typescript",
+          "src/app/admin/courses/new"
+        ],
+        "symbolCount": 347,
+        "dependsOn": []
+      }
+    ],
+    "patterns": [],
+    "entryPoints": [
+      "examples/websocket/server.ts"
+    ]
+  },
+  "symbols": {
+    "classes": [
+      {
+        "name": "BaseSchemaValidator",
+        "kind": "class",
+        "file": "skills/pptx/ooxml/scripts/validation/base.py",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "BaseSchemaValidator",
+        "kind": "class",
+        "file": "skills/docx/ooxml/scripts/validation/base.py",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "Document",
+        "kind": "class",
+        "file": "skills/docx/scripts/document.py",
+        "line": 612,
+        "exported": true
+      },
+      {
+        "name": "DOCXSchemaValidator",
+        "kind": "class",
+        "file": "skills/pptx/ooxml/scripts/validation/docx.py",
+        "line": 14,
+        "exported": true
+      },
+      {
+        "name": "DOCXSchemaValidator",
+        "kind": "class",
+        "file": "skills/docx/ooxml/scripts/validation/docx.py",
+        "line": 14,
+        "exported": true
+      },
+      {
+        "name": "DocxXMLEditor",
+        "kind": "class",
+        "file": "skills/docx/scripts/document.py",
+        "line": 47,
+        "exported": true
+      },
+      {
+        "name": "ParagraphData",
+        "kind": "class",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 137,
+        "exported": true
+      },
+      {
+        "name": "PPTXSchemaValidator",
+        "kind": "class",
+        "file": "skills/pptx/ooxml/scripts/validation/pptx.py",
+        "line": 10,
+        "exported": true
+      },
+      {
+        "name": "PPTXSchemaValidator",
+        "kind": "class",
+        "file": "skills/docx/ooxml/scripts/validation/pptx.py",
+        "line": 10,
+        "exported": true
+      },
+      {
+        "name": "RectAndField",
+        "kind": "class",
+        "file": "skills/pdf/scripts/check_bounding_boxes.py",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "RedliningValidator",
+        "kind": "class",
+        "file": "skills/pptx/ooxml/scripts/validation/redlining.py",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "RedliningValidator",
+        "kind": "class",
+        "file": "skills/docx/ooxml/scripts/validation/redlining.py",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "ShapeData",
+        "kind": "class",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 266,
+        "exported": true
+      },
+      {
+        "name": "ShapeWithPosition",
+        "kind": "class",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 129,
+        "exported": true
+      },
+      {
+        "name": "TestGetBoundingBoxMessages",
+        "kind": "class",
+        "file": "skills/pdf/scripts/check_bounding_boxes_test.py",
+        "line": 8,
+        "exported": true
+      },
+      {
+        "name": "XMLEditor",
+        "kind": "class",
+        "file": "skills/docx/scripts/utilities.py",
+        "line": 41,
+        "exported": true
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "ColorTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 14,
+        "exported": true
+      },
+      {
+        "name": "ComponentSizeTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 198,
+        "exported": true
+      },
+      {
+        "name": "CourseCardProps",
+        "kind": "interface",
+        "file": "src/components/course/course-card.tsx",
+        "line": 10,
+        "exported": true
+      },
+      {
+        "name": "DesignTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 248,
+        "exported": true
+      },
+      {
+        "name": "FontFamilies",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 98,
+        "exported": true
+      },
+      {
+        "name": "MotionTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 173,
+        "exported": true
+      },
+      {
+        "name": "RadiusTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 142,
+        "exported": true
+      },
+      {
+        "name": "ShadowTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 158,
+        "exported": true
+      },
+      {
+        "name": "SpacingTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 108,
+        "exported": true
+      },
+      {
+        "name": "ThemeConfig",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 266,
+        "exported": true
+      },
+      {
+        "name": "TypographyToken",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 78,
+        "exported": true
+      },
+      {
+        "name": "TypographyTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 85,
+        "exported": true
+      },
+      {
+        "name": "ZIndexTokens",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 231,
+        "exported": true
+      },
+      {
+        "name": "AdminSidebarProps",
+        "kind": "interface",
+        "file": "src/components/admin/admin-sidebar.tsx",
+        "line": 10,
+        "exported": false
+      },
+      {
+        "name": "AlertProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 333,
+        "exported": false
+      },
+      {
+        "name": "AvatarProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 638,
+        "exported": false
+      },
+      {
+        "name": "BadgeProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 299,
+        "exported": false
+      },
+      {
+        "name": "ButtonProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 24,
+        "exported": false
+      },
+      {
+        "name": "CardProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 220,
+        "exported": false
+      },
+      {
+        "name": "Chapter",
+        "kind": "interface",
+        "file": "src/components/course/course-player.tsx",
+        "line": 12,
+        "exported": false
+      },
+      {
+        "name": "Chapter",
+        "kind": "interface",
+        "file": "src/app/learn/[courseId]/page.tsx",
+        "line": 21,
+        "exported": false
+      },
+      {
+        "name": "Chapter",
+        "kind": "interface",
+        "file": "src/app/courses/[id]/page.tsx",
+        "line": 23,
+        "exported": false
+      },
+      {
+        "name": "Course",
+        "kind": "interface",
+        "file": "src/app/courses/page.tsx",
+        "line": 12,
+        "exported": false
+      },
+      {
+        "name": "Course",
+        "kind": "interface",
+        "file": "src/app/learn/[courseId]/page.tsx",
+        "line": 37,
+        "exported": false
+      },
+      {
+        "name": "Course",
+        "kind": "interface",
+        "file": "src/app/courses/[id]/page.tsx",
+        "line": 37,
+        "exported": false
+      },
+      {
+        "name": "Course",
+        "kind": "interface",
+        "file": "src/app/admin/courses/page.tsx",
+        "line": 30,
+        "exported": false
+      },
+      {
+        "name": "CoursePlayerProps",
+        "kind": "interface",
+        "file": "src/components/course/course-player.tsx",
+        "line": 28,
+        "exported": false
+      },
+      {
+        "name": "DashboardProps",
+        "kind": "interface",
+        "file": "src/components/student/student-dashboard.tsx",
+        "line": 11,
+        "exported": false
+      },
+      {
+        "name": "EmptyStateProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 550,
+        "exported": false
+      },
+      {
+        "name": "ErrorStateProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 587,
+        "exported": false
+      },
+      {
+        "name": "InputProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 107,
+        "exported": false
+      },
+      {
+        "name": "Lesson",
+        "kind": "interface",
+        "file": "src/components/course/course-player.tsx",
+        "line": 19,
+        "exported": false
+      },
+      {
+        "name": "Lesson",
+        "kind": "interface",
+        "file": "src/app/learn/[courseId]/page.tsx",
+        "line": 28,
+        "exported": false
+      },
+      {
+        "name": "Lesson",
+        "kind": "interface",
+        "file": "src/app/courses/[id]/page.tsx",
+        "line": 30,
+        "exported": false
+      },
+      {
+        "name": "Message",
+        "kind": "interface",
+        "file": "examples/websocket/server.ts",
+        "line": 21,
+        "exported": false
+      },
+      {
+        "name": "ModalProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 410,
+        "exported": false
+      },
+      {
+        "name": "PageReaderFunctionResult",
+        "kind": "interface",
+        "file": "skills/web-reader/scripts/web-reader.ts",
+        "line": 3,
+        "exported": false
+      },
+      {
+        "name": "ProgressData",
+        "kind": "interface",
+        "file": "src/app/dashboard/page.tsx",
+        "line": 32,
+        "exported": false
+      },
+      {
+        "name": "Purchase",
+        "kind": "interface",
+        "file": "src/app/dashboard/page.tsx",
+        "line": 15,
+        "exported": false
+      },
+      {
+        "name": "Sale",
+        "kind": "interface",
+        "file": "src/app/admin/sales/page.tsx",
+        "line": 15,
+        "exported": false
+      },
+      {
+        "name": "SearchFunctionResultItem",
+        "kind": "interface",
+        "file": "skills/web-search/scripts/web_search.ts",
+        "line": 3,
+        "exported": false
+      },
+      {
+        "name": "SidebarProps",
+        "kind": "interface",
+        "file": "src/components/layout/sidebar.tsx",
+        "line": 10,
+        "exported": false
+      },
+      {
+        "name": "SkeletonProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 488,
+        "exported": false
+      },
+      {
+        "name": "State",
+        "kind": "interface",
+        "file": "src/hooks/use-toast.ts",
+        "line": 56,
+        "exported": false
+      },
+      {
+        "name": "Student",
+        "kind": "interface",
+        "file": "src/app/admin/students/page.tsx",
+        "line": 11,
+        "exported": false
+      },
+      {
+        "name": "ThemeContextType",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/theme-provider.tsx",
+        "line": 44,
+        "exported": false
+      },
+      {
+        "name": "ThemeProviderProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/theme-provider.tsx",
+        "line": 38,
+        "exported": false
+      },
+      {
+        "name": "ThemeSelectorProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/theme-provider.tsx",
+        "line": 229,
+        "exported": false
+      },
+      {
+        "name": "ThemeToggleProps",
+        "kind": "interface",
+        "file": "skills/frontend-design/examples/typescript/theme-provider.tsx",
+        "line": 169,
+        "exported": false
+      },
+      {
+        "name": "User",
+        "kind": "interface",
+        "file": "examples/websocket/server.ts",
+        "line": 16,
+        "exported": false
+      }
+    ],
+    "functions": [
+      {
+        "name": "abbreviateNumber",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 260,
+        "exported": true
+      },
+      {
+        "name": "AdminSidebar",
+        "kind": "function",
+        "file": "src/components/admin/admin-sidebar.tsx",
+        "line": 14,
+        "exported": true
+      },
+      {
+        "name": "Alert",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 341,
+        "exported": true
+      },
+      {
+        "name": "apply_font_properties",
+        "kind": "function",
+        "file": "skills/pptx/scripts/replace.py",
+        "line": 113,
+        "exported": true
+      },
+      {
+        "name": "apply_paragraph_properties",
+        "kind": "function",
+        "file": "skills/pptx/scripts/replace.py",
+        "line": 43,
+        "exported": true
+      },
+      {
+        "name": "apply_replacements",
+        "kind": "function",
+        "file": "skills/pptx/scripts/replace.py",
+        "line": 214,
+        "exported": true
+      },
+      {
+        "name": "Avatar",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 646,
+        "exported": true
+      },
+      {
+        "name": "Badge",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 305,
+        "exported": true
+      },
+      {
+        "name": "calculate_overlap",
+        "kind": "function",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 849,
+        "exported": true
+      },
+      {
+        "name": "camelToKebab",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 342,
+        "exported": true
+      },
+      {
+        "name": "capitalize",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 332,
+        "exported": true
+      },
+      {
+        "name": "Card",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 227,
+        "exported": true
+      },
+      {
+        "name": "CardBody",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 266,
+        "exported": true
+      },
+      {
+        "name": "CardDescription",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 262,
+        "exported": true
+      },
+      {
+        "name": "CardFooter",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 270,
+        "exported": true
+      },
+      {
+        "name": "CardHeader",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 254,
+        "exported": true
+      },
+      {
+        "name": "CardTitle",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 258,
+        "exported": true
+      },
+      {
+        "name": "check_duplicate_keys",
+        "kind": "function",
+        "file": "skills/pptx/scripts/replace.py",
+        "line": 204,
+        "exported": true
+      },
+      {
+        "name": "clamp",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 215,
+        "exported": true
+      },
+      {
+        "name": "clear_paragraph_bullets",
+        "kind": "function",
+        "file": "skills/pptx/scripts/replace.py",
+        "line": 26,
+        "exported": true
+      },
+      {
+        "name": "cn",
+        "kind": "function",
+        "file": "src/lib/utils.ts",
+        "line": 4,
+        "exported": true
+      },
+      {
+        "name": "cn",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 21,
+        "exported": true
+      },
+      {
+        "name": "collect_shapes_with_absolute_positions",
+        "kind": "function",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 766,
+        "exported": true
+      },
+      {
+        "name": "condense_xml",
+        "kind": "function",
+        "file": "skills/pptx/ooxml/scripts/pack.py",
+        "line": 133,
+        "exported": true
+      },
+      {
+        "name": "condense_xml",
+        "kind": "function",
+        "file": "skills/docx/ooxml/scripts/pack.py",
+        "line": 133,
+        "exported": true
+      },
+      {
+        "name": "convert",
+        "kind": "function",
+        "file": "skills/pdf/scripts/convert_pdf_to_images.py",
+        "line": 10,
+        "exported": true
+      },
+      {
+        "name": "convert_to_images",
+        "kind": "function",
+        "file": "skills/pptx/scripts/thumbnail.py",
+        "line": 197,
+        "exported": true
+      },
+      {
+        "name": "copyToClipboard",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 142,
+        "exported": true
+      },
+      {
+        "name": "CourseCard",
+        "kind": "function",
+        "file": "src/components/course/course-card.tsx",
+        "line": 23,
+        "exported": true
+      },
+      {
+        "name": "CoursePlayer",
+        "kind": "function",
+        "file": "src/components/course/course-player.tsx",
+        "line": 35,
+        "exported": true
+      },
+      {
+        "name": "create_grid",
+        "kind": "function",
+        "file": "skills/pptx/scripts/thumbnail.py",
+        "line": 321,
+        "exported": true
+      },
+      {
+        "name": "create_grids",
+        "kind": "function",
+        "file": "skills/pptx/scripts/thumbnail.py",
+        "line": 274,
+        "exported": true
+      },
+      {
+        "name": "create_hidden_slide_placeholder",
+        "kind": "function",
+        "file": "skills/pptx/scripts/thumbnail.py",
+        "line": 149,
+        "exported": true
+      },
+      {
+        "name": "create_validation_image",
+        "kind": "function",
+        "file": "skills/pdf/scripts/create_validation_image.py",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "debounce",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 50,
+        "exported": true
+      },
+      {
+        "name": "DELETE",
+        "kind": "function",
+        "file": "src/app/api/admin/courses/[courseId]/route.ts",
+        "line": 86,
+        "exported": true
+      },
+      {
+        "name": "delete_slide",
+        "kind": "function",
+        "file": "skills/pptx/scripts/rearrange.py",
+        "line": 130,
+        "exported": true
+      },
+      {
+        "name": "detect_frame_overflow",
+        "kind": "function",
+        "file": "skills/pptx/scripts/replace.py",
+        "line": 143,
+        "exported": true
+      },
+      {
+        "name": "detect_overlaps",
+        "kind": "function",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 882,
+        "exported": true
+      },
+      {
+        "name": "duplicate_slide",
+        "kind": "function",
+        "file": "skills/pptx/scripts/rearrange.py",
+        "line": 75,
+        "exported": true
+      },
+      {
+        "name": "EmptyState",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 558,
+        "exported": true
+      },
+      {
+        "name": "ErrorState",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+        "line": 595,
+        "exported": true
+      },
+      {
+        "name": "extract_text_inventory",
+        "kind": "function",
+        "file": "skills/pptx/scripts/inventory.py",
+        "line": 914,
+        "exported": true
+      },
+      {
+        "name": "fill_pdf_fields",
+        "kind": "function",
+        "file": "skills/pdf/scripts/fill_fillable_fields.py",
+        "line": 12,
+        "exported": true
+      },
+      {
+        "name": "fill_pdf_form",
+        "kind": "function",
+        "file": "skills/pdf/scripts/fill_pdf_form_with_annotations.py",
+        "line": 28,
+        "exported": true
+      },
+      {
+        "name": "formatFileSize",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 32,
+        "exported": true
+      },
+      {
+        "name": "formatNumber",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 245,
+        "exported": true
+      },
+      {
+        "name": "formatRelativeTime",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 172,
+        "exported": true
+      },
+      {
+        "name": "generateId",
+        "kind": "function",
+        "file": "skills/frontend-design/examples/typescript/utils.ts",
+        "line": 95,
+        "exported": true
+      },
+      {
+        "name": "GET",
+        "kind": "function",
+        "file": "src/app/api/route.ts",
+        "line": 3,
+        "exported": true
+      }
+    ],
+    "types": [
+      {
+        "name": "ChartConfig",
+        "kind": "type",
+        "file": "src/components/ui/chart.tsx",
+        "line": 11,
+        "exported": true
+      },
+      {
+        "name": "Theme",
+        "kind": "type",
+        "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+        "line": 264,
+        "exported": true
+      },
+      {
+        "name": "Action",
+        "kind": "type",
+        "file": "src/hooks/use-toast.ts",
+        "line": 38,
+        "exported": false
+      },
+      {
+        "name": "ActionType",
+        "kind": "type",
+        "file": "src/hooks/use-toast.ts",
+        "line": 36,
+        "exported": false
+      },
+      {
+        "name": "CarouselApi",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 12,
+        "exported": false
+      },
+      {
+        "name": "CarouselApi",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 235,
+        "exported": false
+      },
+      {
+        "name": "CarouselContextProps",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 24,
+        "exported": false
+      },
+      {
+        "name": "CarouselOptions",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 14,
+        "exported": false
+      },
+      {
+        "name": "CarouselPlugin",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 15,
+        "exported": false
+      },
+      {
+        "name": "CarouselProps",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 17,
+        "exported": false
+      },
+      {
+        "name": "ChartContextProps",
+        "kind": "type",
+        "file": "src/components/ui/chart.tsx",
+        "line": 21,
+        "exported": false
+      },
+      {
+        "name": "ControllerProps",
+        "kind": "type",
+        "file": "src/components/ui/form.tsx",
+        "line": 11,
+        "exported": false
+      },
+      {
+        "name": "FieldPath",
+        "kind": "type",
+        "file": "src/components/ui/form.tsx",
+        "line": 12,
+        "exported": false
+      },
+      {
+        "name": "FieldValues",
+        "kind": "type",
+        "file": "src/components/ui/form.tsx",
+        "line": 13,
+        "exported": false
+      },
+      {
+        "name": "FormFieldContextValue",
+        "kind": "type",
+        "file": "src/components/ui/form.tsx",
+        "line": 21,
+        "exported": false
+      },
+      {
+        "name": "FormItemContextValue",
+        "kind": "type",
+        "file": "src/components/ui/form.tsx",
+        "line": 68,
+        "exported": false
+      },
+      {
+        "name": "Message",
+        "kind": "type",
+        "file": "examples/websocket/frontend.tsx",
+        "line": 15,
+        "exported": false
+      },
+      {
+        "name": "PaginationLinkProps",
+        "kind": "type",
+        "file": "src/components/ui/pagination.tsx",
+        "line": 40,
+        "exported": false
+      },
+      {
+        "name": "SidebarContextProps",
+        "kind": "type",
+        "file": "src/components/ui/sidebar.tsx",
+        "line": 35,
+        "exported": false
+      },
+      {
+        "name": "Toast",
+        "kind": "type",
+        "file": "src/hooks/use-toast.ts",
+        "line": 144,
+        "exported": false
+      },
+      {
+        "name": "ToastActionElement",
+        "kind": "type",
+        "file": "src/components/ui/toast.tsx",
+        "line": 117,
+        "exported": false
+      },
+      {
+        "name": "ToastActionElement",
+        "kind": "type",
+        "file": "src/components/ui/toast.tsx",
+        "line": 121,
+        "exported": false
+      },
+      {
+        "name": "ToasterToast",
+        "kind": "type",
+        "file": "src/hooks/use-toast.ts",
+        "line": 14,
+        "exported": false
+      },
+      {
+        "name": "ToastProps",
+        "kind": "type",
+        "file": "src/components/ui/toast.tsx",
+        "line": 115,
+        "exported": false
+      },
+      {
+        "name": "ToastProps",
+        "kind": "type",
+        "file": "src/components/ui/toast.tsx",
+        "line": 120,
+        "exported": false
+      },
+      {
+        "name": "UseCarouselParameters",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 13,
+        "exported": false
+      },
+      {
+        "name": "UseEmblaCarouselType",
+        "kind": "type",
+        "file": "src/components/ui/carousel.tsx",
+        "line": 5,
+        "exported": false
+      },
+      {
+        "name": "User",
+        "kind": "type",
+        "file": "examples/websocket/frontend.tsx",
+        "line": 10,
+        "exported": false
+      }
+    ],
+    "enums": []
+  },
+  "publicAPI": [
+    {
+      "name": "abbreviateNumber",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 260,
+      "exported": true
+    },
+    {
+      "name": "AdminSidebar",
+      "kind": "function",
+      "file": "src/components/admin/admin-sidebar.tsx",
+      "line": 14,
+      "exported": true
+    },
+    {
+      "name": "Alert",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 341,
+      "exported": true
+    },
+    {
+      "name": "apply_font_properties",
+      "kind": "function",
+      "file": "skills/pptx/scripts/replace.py",
+      "line": 113,
+      "exported": true
+    },
+    {
+      "name": "apply_paragraph_properties",
+      "kind": "function",
+      "file": "skills/pptx/scripts/replace.py",
+      "line": 43,
+      "exported": true
+    },
+    {
+      "name": "apply_replacements",
+      "kind": "function",
+      "file": "skills/pptx/scripts/replace.py",
+      "line": 214,
+      "exported": true
+    },
+    {
+      "name": "Avatar",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 646,
+      "exported": true
+    },
+    {
+      "name": "Badge",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 305,
+      "exported": true
+    },
+    {
+      "name": "BaseSchemaValidator",
+      "kind": "class",
+      "file": "skills/pptx/ooxml/scripts/validation/base.py",
+      "line": 11,
+      "exported": true
+    },
+    {
+      "name": "BaseSchemaValidator",
+      "kind": "class",
+      "file": "skills/docx/ooxml/scripts/validation/base.py",
+      "line": 11,
+      "exported": true
+    },
+    {
+      "name": "calculate_overlap",
+      "kind": "function",
+      "file": "skills/pptx/scripts/inventory.py",
+      "line": 849,
+      "exported": true
+    },
+    {
+      "name": "camelToKebab",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 342,
+      "exported": true
+    },
+    {
+      "name": "capitalize",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 332,
+      "exported": true
+    },
+    {
+      "name": "Card",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 227,
+      "exported": true
+    },
+    {
+      "name": "CardBody",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 266,
+      "exported": true
+    },
+    {
+      "name": "CardDescription",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 262,
+      "exported": true
+    },
+    {
+      "name": "CardFooter",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 270,
+      "exported": true
+    },
+    {
+      "name": "CardHeader",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 254,
+      "exported": true
+    },
+    {
+      "name": "CardTitle",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/sample-components.tsx",
+      "line": 258,
+      "exported": true
+    },
+    {
+      "name": "ChartConfig",
+      "kind": "type",
+      "file": "src/components/ui/chart.tsx",
+      "line": 11,
+      "exported": true
+    },
+    {
+      "name": "check_duplicate_keys",
+      "kind": "function",
+      "file": "skills/pptx/scripts/replace.py",
+      "line": 204,
+      "exported": true
+    },
+    {
+      "name": "clamp",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 215,
+      "exported": true
+    },
+    {
+      "name": "clear_paragraph_bullets",
+      "kind": "function",
+      "file": "skills/pptx/scripts/replace.py",
+      "line": 26,
+      "exported": true
+    },
+    {
+      "name": "cn",
+      "kind": "function",
+      "file": "src/lib/utils.ts",
+      "line": 4,
+      "exported": true
+    },
+    {
+      "name": "cn",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 21,
+      "exported": true
+    },
+    {
+      "name": "collect_shapes_with_absolute_positions",
+      "kind": "function",
+      "file": "skills/pptx/scripts/inventory.py",
+      "line": 766,
+      "exported": true
+    },
+    {
+      "name": "ColorTokens",
+      "kind": "interface",
+      "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+      "line": 14,
+      "exported": true
+    },
+    {
+      "name": "ComponentSizeTokens",
+      "kind": "interface",
+      "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+      "line": 198,
+      "exported": true
+    },
+    {
+      "name": "condense_xml",
+      "kind": "function",
+      "file": "skills/pptx/ooxml/scripts/pack.py",
+      "line": 133,
+      "exported": true
+    },
+    {
+      "name": "condense_xml",
+      "kind": "function",
+      "file": "skills/docx/ooxml/scripts/pack.py",
+      "line": 133,
+      "exported": true
+    },
+    {
+      "name": "convert",
+      "kind": "function",
+      "file": "skills/pdf/scripts/convert_pdf_to_images.py",
+      "line": 10,
+      "exported": true
+    },
+    {
+      "name": "convert_to_images",
+      "kind": "function",
+      "file": "skills/pptx/scripts/thumbnail.py",
+      "line": 197,
+      "exported": true
+    },
+    {
+      "name": "copyToClipboard",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 142,
+      "exported": true
+    },
+    {
+      "name": "CourseCard",
+      "kind": "function",
+      "file": "src/components/course/course-card.tsx",
+      "line": 23,
+      "exported": true
+    },
+    {
+      "name": "CourseCardProps",
+      "kind": "interface",
+      "file": "src/components/course/course-card.tsx",
+      "line": 10,
+      "exported": true
+    },
+    {
+      "name": "CoursePlayer",
+      "kind": "function",
+      "file": "src/components/course/course-player.tsx",
+      "line": 35,
+      "exported": true
+    },
+    {
+      "name": "create_grid",
+      "kind": "function",
+      "file": "skills/pptx/scripts/thumbnail.py",
+      "line": 321,
+      "exported": true
+    },
+    {
+      "name": "create_grids",
+      "kind": "function",
+      "file": "skills/pptx/scripts/thumbnail.py",
+      "line": 274,
+      "exported": true
+    },
+    {
+      "name": "create_hidden_slide_placeholder",
+      "kind": "function",
+      "file": "skills/pptx/scripts/thumbnail.py",
+      "line": 149,
+      "exported": true
+    },
+    {
+      "name": "create_validation_image",
+      "kind": "function",
+      "file": "skills/pdf/scripts/create_validation_image.py",
+      "line": 11,
+      "exported": true
+    },
+    {
+      "name": "debounce",
+      "kind": "function",
+      "file": "skills/frontend-design/examples/typescript/utils.ts",
+      "line": 50,
+      "exported": true
+    },
+    {
+      "name": "DELETE",
+      "kind": "function",
+      "file": "src/app/api/admin/courses/[courseId]/route.ts",
+      "line": 86,
+      "exported": true
+    },
+    {
+      "name": "delete_slide",
+      "kind": "function",
+      "file": "skills/pptx/scripts/rearrange.py",
+      "line": 130,
+      "exported": true
+    },
+    {
+      "name": "DesignTokens",
+      "kind": "interface",
+      "file": "skills/frontend-design/examples/typescript/design-tokens.ts",
+      "line": 248,
+      "exported": true
+    },
+    {
+      "name": "detect_frame_overflow",
+      "kind": "function",
+      "file": "skills/pptx/scripts/replace.py",
+      "line": 143,
+      "exported": true
+    },
+    {
+      "name": "detect_overlaps",
+      "kind": "function",
+      "file": "skills/pptx/scripts/inventory.py",
+      "line": 882,
+      "exported": true
+    },
+    {
+      "name": "Document",
+      "kind": "class",
+      "file": "skills/docx/scripts/document.py",
+      "line": 612,
+      "exported": true
+    },
+    {
+      "name": "DOCXSchemaValidator",
+      "kind": "class",
+      "file": "skills/pptx/ooxml/scripts/validation/docx.py",
+      "line": 14,
+      "exported": true
+    },
+    {
+      "name": "DOCXSchemaValidator",
+      "kind": "class",
+      "file": "skills/docx/ooxml/scripts/validation/docx.py",
+      "line": 14,
+      "exported": true
+    },
+    {
+      "name": "DocxXMLEditor",
+      "kind": "class",
+      "file": "skills/docx/scripts/document.py",
+      "line": 47,
+      "exported": true
+    }
+  ],
+  "dependencies": {
+    "mostImported": [
+      {
+        "file": "/Users/marcosalexandre/Casa dos Painéis/skills/frontend-design/examples/typescript/design-tokens.ts",
+        "importedBy": 1
+      },
+      {
+        "file": "/Users/marcosalexandre/Casa dos Painéis/skills/frontend-design/examples/typescript/utils.ts",
+        "importedBy": 1
+      }
+    ]
+  },
+  "stats": {
+    "totalSymbols": 554,
+    "exportedSymbols": 160,
+    "analysisTimeMs": 629
+  }
+}

@@ -1,0 +1,275 @@
+
+> nextjs_tailwind_shadcn_ts@0.2.0 dev
+> next dev -p 3000 2>&1 | tee dev.log
+
+   ▲ Next.js 15.3.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1596ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 1204ms (216 modules)
+ ○ Compiling /_not-found ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (187kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled /_not-found in 6.9s (1152 modules)
+ ⨯ [TypeError: localStorage.getItem is not a function] {
+  digest: '2356666925'
+}
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+(node:28648) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4s (1454 modules)
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ HEAD /dashboard 500 in 15599ms
+ HEAD /dashboard 500 in 501ms
+ ✓ Compiled in 277ms (717 modules)
+ ✓ Compiled in 1075ms (933 modules)
+ ✓ Compiled in 636ms (714 modules)
+ ✓ Compiled in 685ms (713 modules)
+ ✓ Compiled in 536ms (713 modules)
+[Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/1.pack.gz'
+ ✓ Compiled in 482ms (713 modules)
+ ✓ Compiled in 662ms (713 modules)
+[Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/edge-server-development/0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/0.pack.gz_' -> '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 1135ms (767 modules)
+ ✓ Compiled in 10.7s (983 modules)
+ ✓ Compiled in 950ms (713 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/middleware.js']
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1490ms (796 modules)
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ GET / 500 in 48ms
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/middleware.js']
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/webpack-runtime.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/.next/server/pages/_document.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/require.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/load-components.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/utils.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/options.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/swc/index.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/config.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/next.js
+- /Users/marcosalexandre/Library/CloudStorage/GoogleDrive-marckexpert1@gmail.com/Meu Drive/Mac_Sync/Projetos/Casa dos Painéis/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:203:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/pages/_document.js:1:339)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ GET / 500 in 80ms
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]

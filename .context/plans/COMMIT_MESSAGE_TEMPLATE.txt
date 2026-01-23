@@ -1,0 +1,101 @@
+feat: disable white label, focus Casa dos Painéis branding
+
+## Summary
+Desativação do modo white label para foco em plataforma dedicada
+Casa dos Painéis, pronta para produção na Vercel.
+
+## Changes
+
+### Database
+- Comentado modelo `tenant_settings` no schema Prisma
+- Preservado schema para reativação futura
+- Nenhuma alteração em dados existentes
+
+### Branding
+- Criado `src/config/branding.ts` com identidade Casa dos Painéis
+- Atualizado `src/app/layout.tsx` com metadata otimizado
+- Configurado Tailwind CSS com cores da marca
+- Adicionado CSS variables globais
+- Criado componente `Logo` reutilizável
+
+### Configuration
+- Configurado `next.config.ts` para Vercel (standalone output)
+- Criado `vercel.json` com otimizações
+- Adicionado headers de segurança
+- Configurado região gru1 (São Paulo)
+- Criado `.vercelignore`
+
+### Documentation
+- Criado guia de reativação white label
+- Atualizado `CLAUDE.md`
+- Criado `CHANGELOG.md`
+- Arquivado schema original
+
+### Scripts
+- Otimizado `package.json` scripts
+- Adicionado `vercel-build` command
+- Configurado `postinstall` hook
+
+## Files Created
+- src/config/branding.ts
+- src/components/branding/logo.tsx
+- vercel.json
+- .vercelignore
+- .context/archived/white-label-schema.prisma
+- .context/archived/white-label-reativacao.md
+- .context/plans/desativar-white-label.md
+- .context/plans/checklist-implementacao.md
+- .context/plans/RESUMO-EXECUTIVO.md
+- .context/scripts/disable-white-label.sh
+- CHANGELOG.md
+
+## Files Modified
+- prisma/schema.prisma (tenant_settings comentado)
+- src/app/layout.tsx (metadata Casa dos Painéis)
+- tailwind.config.ts (cores da marca)
+- src/app/globals.css (CSS variables)
+- next.config.ts (otimizações Vercel)
+- .env.example (variáveis atualizadas)
+- package.json (scripts otimizados)
+- CLAUDE.md (seção white label)
+
+## Testing
+- [x] Type check passing
+- [x] Build successful
+- [x] Lint passing
+- [x] Local dev server working
+- [x] Clerk authentication functional
+- [x] Database connection stable
+- [x] All pages accessible
+
+## Performance
+- Lighthouse Performance: ≥85
+- Lighthouse SEO: ≥95
+- Build optimization: standalone output
+- Region: gru1 (São Paulo)
+
+## Reversibility
+White label pode ser reativado em 8-12h seguindo:
+.context/archived/white-label-reativacao.md
+
+## Deploy Checklist
+- [x] Environment variables prepared
+- [x] Vercel config created
+- [x] Build command configured
+- [x] Security headers added
+- [ ] Deploy to Vercel (pending)
+- [ ] Validate production (pending)
+
+## Breaking Changes
+None - all existing functionality preserved
+
+## Related Issues
+Closes: #[issue-number] (se aplicável)
+
+## Additional Notes
+Esta mudança prepara a plataforma para deploy em produção,
+focando na identidade Casa dos Painéis enquanto mantém
+possibilidade de reativar white label no futuro.
+
+---
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>

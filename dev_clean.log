@@ -1,0 +1,33 @@
+   ▲ Next.js 15.3.5
+   - Local:        http://localhost:3005
+   - Network:      http://192.168.0.2:3005
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1747ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 848ms (216 modules)
+ ○ Compiling /_not-found ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (187kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled /_not-found in 16s (1152 modules)
+ ⨯ [TypeError: localStorage.getItem is not a function] {
+  digest: '2356666925'
+}
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+(node:30610) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.2s (1454 modules)
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ [TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+[TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection: [TypeError: localStorage.getItem is not a function]
+ ⨯ unhandledRejection:  [TypeError: localStorage.getItem is not a function]
+ HEAD /dashboard 500 in 22762ms
+ HEAD /dashboard 500 in 301ms
+ ✓ Compiled in 1427ms (1468 modules)
+ ✓ Compiled in 10.2s (983 modules)
+ ✓ Compiled in 1269ms (713 modules)
