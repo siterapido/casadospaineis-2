@@ -5,7 +5,11 @@
   "installCommand": "bun install",
   "regions": ["gru1"],
   "env": {
-    "NEXT_PUBLIC_APP_NAME": "Casa dos Painéis"
+    "NEXT_PUBLIC_APP_NAME": "Casa dos Painéis",
+    "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "/login",
+    "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "/register",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "/dashboard",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "/dashboard"
   },
   "headers": [
     {
