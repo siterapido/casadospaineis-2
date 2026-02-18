@@ -96,145 +96,19 @@ model UserProgress {
   @@unique([userId, lessonId])
 }
 
-model attachments {
-  id         Int       @id @default(autoincrement())
-  lesson_id  Int?
-  file_name  String    @db.VarChar(255)
-  file_url   String
-  file_size  Int?
-  file_type  String?   @db.VarChar(100)
-  created_at DateTime? @default(now()) @db.Timestamp(6)
-  lessons    lessons?  @relation(fields: [lesson_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-
-  @@index([lesson_id], map: "idx_attachments_lesson_id")
-}
-
-model comments {
-  id             Int        @id @default(autoincrement())
-  lesson_id      Int?
-  user_id        Int?
-  content        String
-  parent_id      Int?
-  created_at     DateTime?  @default(now()) @db.Timestamp(6)
-  updated_at     DateTime?  @default(now()) @db.Timestamp(6)
-  lessons        lessons?   @relation(fields: [lesson_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-  comments       comments?  @relation("commentsTocomments", fields: [parent_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-  other_comments comments[] @relation("commentsTocomments")
-  users          users?     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-
-  @@index([lesson_id], map: "idx_comments_lesson_id")
-}
-
-model courses {
-  id            Int       @id @default(autoincrement())
-  title         String    @db.VarChar(255)
-  description   String?
-  thumbnail_url String?
-  is_published  Boolean?  @default(false)
-  created_at    DateTime? @default(now()) @db.Timestamp(6)
-  updated_at    DateTime? @default(now()) @db.Timestamp(6)
-  modules       modules[]
-}
-
-model lessons {
-  id               Int             @id @default(autoincrement())
-  module_id        Int?
-  title            String          @db.VarChar(255)
-  video_url        String?
-  content          String?
-  duration_minutes Int?            @default(0)
-  sort_order       Int?            @default(0)
-  created_at       DateTime?       @default(now()) @db.Timestamp(6)
-  updated_at       DateTime?       @default(now()) @db.Timestamp(6)
-  attachments      attachments[]
-  comments         comments[]
-  modules          modules?        @relation(fields: [module_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-  user_progress    user_progress[]
-
-  @@index([module_id], map: "idx_lessons_module_id")
-}
-
-model modules {
-  id         Int       @id @default(autoincrement())
-  course_id  Int?
-  title      String    @db.VarChar(255)
-  sort_order Int?      @default(0)
-  created_at DateTime? @default(now()) @db.Timestamp(6)
-  updated_at DateTime? @default(now()) @db.Timestamp(6)
-  lessons    lessons[]
-  courses    courses?  @relation(fields: [course_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-
-  @@index([course_id], map: "idx_modules_course_id")
-}
-
-model sessions {
-  id         Int       @id @default(autoincrement())
-  user_id    Int?
-  token      String    @unique @db.VarChar(255)
-  expires_at DateTime  @db.Timestamp(6)
-  created_at DateTime? @default(now()) @db.Timestamp(6)
-  users      users?    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-
-  @@index([token], map: "idx_sessions_token")
-  @@index([user_id], map: "idx_sessions_user_id")
-}
-
 // =====================================================
 // WHITE LABEL - DESABILITADO (2026-01-23)
 // Modelo preservado para reativação futura
 // Ver: .context/archived/white-label-reativacao.md
 // =====================================================
-/*
-model tenant_settings {
-  id                  Int       @id @default(autoincrement())
-  name                String    @default("Minha Plataforma") @db.VarChar(255)
-  logo_url            String?
-  favicon_url         String?
-  primary_color       String?   @default("#2563eb") @db.VarChar(7)
-  secondary_color     String?   @default("#1e40af") @db.VarChar(7)
-  custom_scripts      String?
-  created_at          DateTime? @default(now()) @db.Timestamp(6)
-  updated_at          DateTime? @default(now()) @db.Timestamp(6)
-  logo_dark_url       String?
-  logo_compact_url    String?
-  sidebar_color       String?   @default("#1e293b") @db.VarChar(7)
-  sidebar_text_color  String?   @default("#f8fafc") @db.VarChar(7)
-  accent_color        String?   @default("#2563eb") @db.VarChar(7)
-  landing_page_config Json?
-  slug                String?   @unique @db.VarChar(50)
-  domain              String?   @unique @db.VarChar(255)
+// tenant_settings model removed — reactivate from .context/archived if needed
 
-  @@index([domain], map: "idx_tenant_domain")
-  @@index([slug], map: "idx_tenant_slug")
-}
-*/
-
-model user_progress {
-  id                 Int       @id @default(autoincrement())
-  user_id            Int?
-  lesson_id          Int?
-  completed_at       DateTime? @db.Timestamp(6)
-  last_watched_at    DateTime? @default(now()) @db.Timestamp(6)
-  watch_time_seconds Int?      @default(0)
-  lessons            lessons?  @relation(fields: [lesson_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-  users              users?    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-
-  @@unique([user_id, lesson_id])
-  @@index([user_id], map: "idx_user_progress_user_id")
-}
-
-/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
-model users {
-  id            Int             @id @default(autoincrement())
-  email         String          @unique @db.VarChar(255)
-  password_hash String          @db.VarChar(255)
-  name          String          @db.VarChar(255)
-  avatar_url    String?
-  role          String?         @default("student") @db.VarChar(20)
-  is_active     Boolean?        @default(true)
-  created_at    DateTime?       @default(now()) @db.Timestamp(6)
-  updated_at    DateTime?       @default(now()) @db.Timestamp(6)
-  comments      comments[]
-  sessions      sessions[]
-  user_progress user_progress[]
-}
+// =====================================================
+// MODELOS LEGADOS REMOVIDOS (2026-02-18)
+// Os modelos abaixo (attachments, comments, courses,
+// lessons, modules, sessions, user_progress, users)
+// usavam IDs inteiros e foram substituídos pelos
+// modelos acima com IDs CUID.
+// As tabelas podem ainda existir no banco de dados
+// de produção mas não são utilizadas pelo código.
+// =====================================================
